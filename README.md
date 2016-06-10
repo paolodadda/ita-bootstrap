@@ -5,7 +5,7 @@ L'implementazione di riferimento contiene un CSS riutilizzabile basato sulla ver
 
 ### Contenuto
 
-* `dist/css/agid.css`: file CSS riutilizzabile basato su Bootstrap
+* `dist/css/ita-bootstrap.css`: file CSS riutilizzabile basato su Bootstrap
 * `dist/js/`: file Javascript Bootstrap e jQuery
 * `dist/*.html`: file html esemplificativi
 

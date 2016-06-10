@@ -1,0 +1,34 @@
+{
+  "name": "agid-linee-guida",
+  "description": "Bootstrap-based CSS per le Linee guida di italia.gov.it",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+	  	"assets/stylesheets/_bootstrap.scss",
+	    "assets/javascripts/bootstrap.min.js",
+	    "assets/fonts/bootstrap/*",
+	    "assets/stylesheets/bootstrap/**/*"
+      ]
+    },
+    "jquery": {
+      "main": [
+		  "dist/jquery.min.js"
+      ]
+    }
+  }
+}

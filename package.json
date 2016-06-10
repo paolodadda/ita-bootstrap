@@ -1,0 +1,13 @@
+{
+  "name": "agid-linee-guida",
+  "version": "1.0.0",
+  "description": "Bootstrap-based CSS - Linee guida di design per i siti web della Pubblica Amministrazione",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
+    "main-bower-files": "^2.9.0"
+  }
+}

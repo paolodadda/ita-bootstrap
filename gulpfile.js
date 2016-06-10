@@ -42,7 +42,7 @@ gulp.task('cssimg', ['bootstrap:customize'], function() {
 });
 
 gulp.task('sass', ['bootstrap:customize'], function() {
-  return gulp.src('build/lib/bootstrap-sass/assets/stylesheets/agid.scss')
+  return gulp.src('build/lib/bootstrap-sass/assets/stylesheets/ita-bootstrap.scss')
 	.pipe(sass.sync({precision:8}).on('error', sass.logError))
 	.pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/css'));

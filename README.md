@@ -16,7 +16,7 @@ e non è necessaria per utilizzare il CSS (`dist/ita-bootstrap.css`) all'interno
 
 La personalizzazione del CSS si basa su alcuni prerequisiti:
 
-* [node e npm].
+* [node e npm](https://nodejs.com)
 * [Bower](http://bower.io).
 * [Gulp](http://gulpjs.com/).
 

@@ -6,6 +6,7 @@ var mainBowerFiles = require('main-bower-files');
 var minifyCss = require('gulp-minify-css');
 var sourcemaps = require('gulp-sourcemaps');
 var ghPages = require('gulp-gh-pages');
+var del = require('del');
 
 // Bower assets
 gulp.task('bower', function moveBowerDeps() {
@@ -51,6 +52,10 @@ gulp.task('dist', ['bootstrap:js','jquery','html','sass', 'cssimg'], function() 
 });
 
 gulp.task('default', ['dist'], function() {
+});
+
+gulp.task('clean', function () {
+  return del.sync(['dist/*', '!dist/.git'], {dot: true});
 });
 
 gulp.task('watch', function () {

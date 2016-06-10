@@ -1,26 +1,27 @@
-# Implementazione CSS/HTML Linee guida di design per i siti web della Pubblica Amministrazione
+# Linee guida di design per i siti web della Pubblica Amministrazione
+## Implementazione CSS/HTML di riferimento
 
-Implementazione delle linee guida con un CSS Bootstrap-based.
-L'implementazione è basata su [Bootstrap-sass](https://github.com/twbs/bootstrap-sass) v.3.3.5.
+L'implementazione di riferimento contiene un CSS riutilizzabile basato sulla versione 3.3.5 del framework [Bootstrap](https://github.com/twbs/bootstrap-sass).
 
-## Quick start
+### Contenuto
 
-La cartella `dist` contiene il quanto serve per creare un website utilizzando il css che implementa le linee guida:
-
-* `dist/css/agid.css`: file CSS Bootstrap-based.
+* `dist/css/agid.css`: file CSS riutilizzabile basato su Bootstrap
 * `dist/js/`: file Javascript Bootstrap e jQuery
-* `dist/fonts/`: file fonts usati da Bootstrap
 * `dist/*.html`: file html esemplificativi
 
-## Installazione
+### Installazione dell'ambiente di sviluppo
+
+La procedura di seguito descritta è rivolta a chi vuole contribuire allo sviluppo del tema / CSS
+e non è necessaria per utilizzare il CSS (`dist/ita-bootstrap.css`) all'interno di un sito web.
 
 La personalizzazione del CSS si basa su alcuni prerequisiti:
 
-* [node e npm](http://nodejs.org/).
+* [node e npm].
 * [Bower](http://bower.io).
 * [Gulp](http://gulpjs.com/).
 
-Dopo aver installato nodejs ed npm, è sufficiente eseguire questi comandi:
+Dopo aver installato nodejs e npm, 
+è possibile effettuare un nuovo build eseguire questi comandi:
 
 ````
 > npm install -g bower gulp
@@ -34,10 +35,10 @@ Dopo aver installato nodejs ed npm, è sufficiente eseguire questi comandi:
 Il file system è così organizzato:
 
 ```
-agid-guidelines/
+ita-bootstrap/
 │
 ├── sass/
-│   ├── agid.scss
+│   ├── ita-bootstrap.scss
 │   ├── _custom.scss
 │   └── bootstrap/
 │          ├── _variables.scss
@@ -52,7 +53,7 @@ agid-guidelines/
 │   ├── ...
 │   │
 │   ├── css/
-│   │    └── agid.css
+│   │    └── ita-bootstrap.css
 │   │
 │   ├── fonts/
 │   │    ├── ...
@@ -62,9 +63,10 @@ agid-guidelines/
 │        ├── ...
 ```
 
-Le regole personalizzazioni di Bootstrap e le regole specifiche per le Linee guida sono contenute nei due file *partial*:
+Le variabili personalizzate di Bootstrap e le regole specifiche per le linee guida sono contenute nei due file *partial*:
+
 * `bootstrap/_variables.scss`: modifica le variabili standard di Bootstrap e sovrascrive le impostazioni di Bootstrap
-* `_custom.scss`: incluso in cascata a Bootstrap, modifica le regole Bootstrap.
+* `_custom.scss`: incluso in cascata a Bootstrap, modifica le regole Bootstrap
 
 Il comando:
 ````

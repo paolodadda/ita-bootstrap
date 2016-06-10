@@ -1,10 +1,10 @@
 {
-  "name": "agid-linee-guida",
-  "description": "Bootstrap-based CSS per le Linee guida di italia.gov.it",
+  "name": "ita-bootstrap",
+  "description": "Implementazione di riferimento per le Linee guida di design.italia.it",
   "authors": [
-    ""
+    "AgID"
   ],
-  "license": "MIT",
+  "license": "CC0",
   "private": true,
   "ignore": [
     "**/.*",
@@ -21,7 +21,6 @@
       "main": [
 	  	"assets/stylesheets/_bootstrap.scss",
 	    "assets/javascripts/bootstrap.min.js",
-	    "assets/fonts/bootstrap/*",
 	    "assets/stylesheets/bootstrap/**/*"
       ]
     },

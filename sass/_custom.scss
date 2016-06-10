@@ -191,22 +191,36 @@ a {
   }
 }
 
-// _types
-.h7,h7 {
-	@extend .h6;
-}
+// .h7,h7 {
+// 	@extend .h6;
+// }
 
 h5, .h5{
  	font-weight: normal;
 }
 
-h1, .h1 { line-height: 1.194444 }
-h2, .h2 { line-height: 1.2 }
-h3, .h3 { line-height: 1.33333 }
-h4, .h4 { line-height: 1.5 }
-h5, .h5 { line-height: 1.33333 }
-h6, .h6 { line-height: 1.555555 }
-h7, .h7 { font-size: $font-size-h7; line-height: 1.375 }
+h1, .h1 { line-height: $line-height-h1 }
+h2, .h2 { line-height: $line-height-h2 }
+h3, .h3 { line-height: $line-height-h3 }
+h4, .h4 { line-height: $line-height-h4 }
+h5, .h5 { line-height: $line-height-h5 }
+h6, .h6 { line-height: $line-height-h6 }
+
+// h7, .h7 { font-size: $font-size-h7; line-height: $line-height-h7 }
+
+article {
+  p,
+  ul,
+  ol,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    max-width: 31em;
+  }
+}
 
 mark,
 .mark {

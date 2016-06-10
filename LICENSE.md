@@ -6,7 +6,7 @@ Il file `dist/js/jquery.min.js` è distribuito da [jQuery](https://jquery.com/),
 
 Il file `dist/js/bootstrap.min.js` è distribuito da [Twitter, Inc](https://about.twitter.com/company), Copyright (c) 2011-2015 Twitter, Inc, sotto [licenza MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
-## I restanti file sono distribuiti nei termini della licenza CC0 - Creative Commons
+## I restanti file sono distribuiti nei termini della licenza CC0
 
 ### Creative Commons Zero v1.0 Universal
 

@@ -52,15 +52,28 @@ $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          18px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.8889)) !default; // ~16px
+$font-size-small:         15px !default; // ~16px
 
-$font-size-h1:            floor(($font-size-base * 4)) !default; // ~72px
-$font-size-h2:            ceil(($font-size-base * 3.33333)) !default; // ~62px
-$font-size-h3:            ceil(($font-size-base * 2)) !default; // ~36px
-$font-size-h4:            ceil(($font-size-base * 1.3333)) !default; // ~24px
-$font-size-h5:            ceil(($font-size-base * 1.1666)) !default;// ~21px
-$font-size-h6:            $font-size-base !default; // 18px
-$font-size-h7:            floor(($font-size-base * 0.8889)) !default;// ~16px
+$font-size-h1:            54px;
+$font-size-h1-sm:         36px;
+$line-height-h1:          1.2;
+
+$font-size-h2:            40px;
+$font-size-h2-sm:         32px;
+$line-height-h2:          1.2;
+
+$font-size-h3:            32px;
+$font-size-h3-sm:         28px;
+$line-height-h3:          1.2;
+
+$font-size-h4:            23px;
+$line-height-h4:          1.2;
+
+$font-size-h5:            21px;
+$line-height-h5:          1.2;
+
+$font-size-h6:            18px;
+$line-height-h6:          1.55;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.5555555556 !default; // 28/18
@@ -864,7 +877,7 @@ $headings-small-color:        $gray-light !default;
 //** Blockquote small color
 $blockquote-small-color:      $gray-light !default;
 //** Blockquote font size
-$blockquote-font-size:        ($font-size-base * 1.25) !default;
+$blockquote-font-size:        ($font-size-base) !default;
 //** Blockquote border color
 $blockquote-border-color:     $gray-lighter !default;
 //** Page header border color

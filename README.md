@@ -14,14 +14,13 @@ L'implementazione di riferimento contiene un CSS riutilizzabile basato sulla ver
 La procedura di seguito descritta è rivolta a chi vuole contribuire allo sviluppo del tema / CSS
 e non è necessaria per utilizzare il CSS (`dist/ita-bootstrap.css`) all'interno di un sito web.
 
-La personalizzazione del CSS si basa su alcuni prerequisiti:
+La procedura per personalizzare il CSS richiede come prerequisito l'installazione dei software:
 
-* [node e npm](https://nodejs.org)
+* [Node.js / npm](https://nodejs.org)
 * [Bower](http://bower.io)
-* [Gulp](http://gulpjs.com/)
+* [Gulp](http://gulpjs.com)
 
-Dopo aver installato nodejs e npm, 
-è possibile effettuare un nuovo build eseguire questi comandi:
+È possibile effettuare un nuovo build eseguendo la sequenza di comandi:
 
 ````
 > npm install -g bower gulp
@@ -30,9 +29,7 @@ Dopo aver installato nodejs e npm,
 > gulp dist
 ````
 
-### Struttura file-system
-
-Il file system è così organizzato:
+### Struttura del file system
 
 ```
 ita-bootstrap/

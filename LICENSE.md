@@ -8,7 +8,7 @@ Il file `dist/js/bootstrap.min.js` è distribuito da [Twitter, Inc](https://abou
 
 ## I restanti file sono distribuiti nei termini della licenza CC0 - Creative Commons
 
-### CC0 1.0 Universal
+### Creative Commons Zero v1.0 Universal
 
 Questa è una versione comprensibile ad esseri umani del Codice Legale [(leggi il testo integrale)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
